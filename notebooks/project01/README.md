@@ -69,6 +69,6 @@ Or open the Command Palette (Ctrl Shift P / Cmd Shift P) and run: Python: Select
 Run notebooks directly in VS Code.
 
 Click on a cell and press:
-<br><br>Shift Enter to run cell and move to next
+<br>Shift Enter to run cell and move to next
 <br>Ctrl Enter to run cell and stay in place
 <br>Save often or enable File / Auto Save.
