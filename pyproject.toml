@@ -9,13 +9,13 @@ build-backend = "setuptools.build_meta"
 requires = ["setuptools>=80", "wheel"]
 
 [project]
-authors = [{name = "Denise Case"}] # TODO: Change to YOUR name (ownership matters)
+authors = [{name = "JfromNWMS"}]
 classifiers = [
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.12",
 ]
 description = "Applied ML Template"
-name = "analytics-project" # PACKAGE name (matches src folder except with dashes)
+name = "applied-ml-jordan" # PACKAGE name (matches src folder except with dashes)
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.12"
@@ -33,10 +33,10 @@ dependencies = [ # fmt: off
 ]  # fmt: on
 
 [project.urls]
-"Bug Tracker" = "https://github.com/denisecase/applied-ml-template/issues"
-Documentation = "https://denisecase.github.io/applied-ml-template/"
-Homepage = "https://github.com/denisecase/applied-ml-template"
-Repository = "https://github.com/denisecase/applied-ml-template"
+"Bug Tracker" = "https://github.com/denisecase/applied-ml-jordan/issues"
+Documentation = "https://denisecase.github.io/applied-ml-jordan/"
+Homepage = "https://github.com/denisecase/applied-ml-jordan"
+Repository = "https://github.com/denisecase/applied-ml-jordan"
 
 [project.optional-dependencies]
 dev = [
