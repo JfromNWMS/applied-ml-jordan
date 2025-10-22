@@ -11,7 +11,7 @@ This project is a guided notebook assignment that demonstrates how to:
 - Train a regression model and evaluate performance.
 - Document work in a structured Jupyter Notebook.
 
-## Instructions to set up virtual environment
+## Instructions to Set up Virtual Environment
 
 Run these commands in your VS Code terminal:
 
@@ -46,7 +46,7 @@ macOS / Linux / WSL:
 source .venv/bin/activate
 ```
 
-## Instructions to run Jupyter notebook locally
+## Instructions to Run Jupyter Notebook Locally
 
 ### Install the Jupyter Extension for VS Code:
 
