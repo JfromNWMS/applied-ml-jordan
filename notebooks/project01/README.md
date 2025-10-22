@@ -15,36 +15,36 @@ This project is a guided notebook assignment that demonstrates how to:
 
 Run these commands in your VS Code terminal:
 
-'''shell
-1. Create an isolated virtual environment
+```shell
+# 1. Create an isolated virtual environment
 uv venv
 
-2. Pin a specific Python version (3.12 recommended)
+# 2. Pin a specific Python version (3.12 recommended)
 uv python pin 3.12
 
-3. Install all dependencies, including optional dev/docs tools
+# 3. Install all dependencies, including optional dev/docs tools
 uv sync --extra dev --extra docs --upgrade
 
-4. Enable pre-commit checks so they run automatically on each commit
+# 4. Enable pre-commit checks so they run automatically on each commit
 uv run pre-commit install
 
-5. Verify the Python version (should show 3.12.x)
+# 5. Verify the Python version (should show 3.12.x)
 uv run python --version
-'''
+```
 
 Next, activate the virtual environment.
 
 Windows (PowerShell):
 
-'''script
+```script
 .\.venv\Scripts\activate
-'''
+```
 
 macOS / Linux / WSL:
 
-'''script
+```script
 source .venv/bin/activate
-'''
+```
 
 ## Instructions to run Jupyter notebook locally
 
