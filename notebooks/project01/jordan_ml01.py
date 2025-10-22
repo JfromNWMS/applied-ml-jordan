@@ -1,4 +1,4 @@
-"""ml01.py - Just the code.
+"""jordan_ml01.py - Just the code.
 
 This script is a simple example of a linear regression model using the California Housing dataset.
 Some charting is commented out after evaluation.
