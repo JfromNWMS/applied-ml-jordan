@@ -12,7 +12,7 @@ This project is a guided notebook assignment that demonstrates how to:
 - Train a regression model and evaluate performance.
 - Document work in a structured Jupyter Notebook.
 
-A link to the notebook can be found here: [ml01.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project01/ml01.ipynb)
+A link to the notebook can be found here: [jordan_ml01.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project01/jordan_ml01.ipynb)
 
 ## Instructions to Set up Virtual Environment
 
