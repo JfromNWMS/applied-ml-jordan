@@ -1,5 +1,5 @@
 # Project 01
-Author:  JfromNWMS
+### Author:  JfromNWMS
 
 ## Overview
 Businesses and organizations often need to understand the relationships between different factors to make better decisions.
