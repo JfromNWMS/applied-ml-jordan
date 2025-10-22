@@ -12,6 +12,8 @@ This project is a guided notebook assignment that demonstrates how to:
 - Train a regression model and evaluate performance.
 - Document work in a structured Jupyter Notebook.
 
+A link to the notebook can be found [Here](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project01/ml01.ipynb)
+
 ## Instructions to Set up Virtual Environment
 
 Run these commands in your VS Code terminal:
