@@ -70,3 +70,7 @@ To run notebooks directly in VS Code, click on a cell and press:
 <br>Shift Enter to run cell and move to next
 <br>Ctrl Enter to run cell and stay in place
 <br>Save often or enable File / Auto Save.
+
+## Example Analysis
+
+![alt text](image.png)
