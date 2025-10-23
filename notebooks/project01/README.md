@@ -1,4 +1,4 @@
-# Project 01
+# Jordan Project 01
 ### Author:  [JfromNWMS](https://github.com/JfromNWMS)
 
 ## Overview
