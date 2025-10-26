@@ -1,3 +1,5 @@
+"""A module for calculating Tukey's fences."""
+
 from typing import NamedTuple  # noqa: I001
 import pandas as pd
 
@@ -24,21 +26,3 @@ def tukey_fences(feature_series: pd.Series) -> TukeyFences:
         inner_upper=inner_upper_fence,
         outer_upper=outer_upper_fence
     )
-
-
-
-
-
-
-
-
-'''def tukey_fences(feature_series: pd.Series) -> tuple[float, float, float, float]:
-    """Return Tukey's fences of pandas Series."""
-    q1, q3 = feature_series.quantile([0.25, 0.75])  # noqa: Q000
-    iqr: float = q3 - q1
-    outer_upper_fence: float = q3 + 3 * iqr
-    inner_upper_fence: float = q3 + 1.5 * iqr
-    inner_lower_fence: float = q1 - 1.5 * iqr
-    outer_lower_fence: float = q1 - 3 * iqr
-
-    return (outer_lower_fence, inner_lower_fence, inner_upper_fence, outer_upper_fence)'''
