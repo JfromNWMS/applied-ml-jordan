@@ -41,6 +41,7 @@ Repository = "https://github.com/denisecase/applied-ml-jordan"
 
 [project.optional-dependencies]
 dev = [
+  "pre-commit", # code quality checks before commits
   "pytest", # run some tests automatically only needed for code files
   "pytest-cov", # coverage report for more visibility only needed for code files
 ]
