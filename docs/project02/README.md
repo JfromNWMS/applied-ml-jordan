@@ -58,8 +58,8 @@ This Machine learning project follows a structured approach.
 - 2.2 Identify patterns or anomalies in feature distributions.
 - 2.3 Feature Engineering
   - Reflection 2.3
-  - Why might family size be a useful feature for predicting survival?
-  - Why convert categorical data to numeric?
+    - Why might family size be a useful feature for predicting survival?
+    - Why convert categorical data to numeric?
 
 ### Section 3. Choose Features and Target
 - Reflection 3:
@@ -68,9 +68,9 @@ This Machine learning project follows a structured approach.
 
 ### Section 4. Splitting
 - Reflection 4:
-- Why might stratification improve model performance?
-- How close are the training and test distributions to the original dataset?
-- Which split method produced better class balance?
+  - Why might stratification improve model performance?
+  - How close are the training and test distributions to the original dataset?
+  - Which split method produced better class balance?
 
 See [EXAMPLE_ANALYSIS](./EXAMPLE_ANALYSIS.md) for more.
 
