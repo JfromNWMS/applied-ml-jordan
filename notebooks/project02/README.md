@@ -9,7 +9,7 @@ Regression analysis helps identify and quantify these relationships between nume
 This project is a guided notebook assignment that demonstrates how to:
 - Load and explore a dataset.
 - Choose and justify features for predicting a target variable.
-- Train a regression model and evaluate performance.
+- Check for class distributions of pseudo-random and stratified test-train-split methods.
 - Document work in a structured Jupyter Notebook.
 
 A link to the notebook can be found here: [ml02_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project02/ml02_jordan.ipynb)
@@ -72,4 +72,7 @@ To run notebooks directly in VS Code, click on a cell and press:
 <br>Save often or enable File / Auto Save.
 
 ## Example Analysis for Project 2
+
+![alt text](image.png)
+![alt text](image-1.png)
 
