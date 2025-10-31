@@ -8,7 +8,7 @@ from statsmodels.stats.stattools import medcouple
 
 
 class Fences(NamedTuple):
-    """Named tuple for Tukey's fences."""
+    """NamedTuple for Tukey's fences."""
 
     outer_lower: float | None
     inner_lower: float | None
@@ -37,6 +37,9 @@ def tukey_fences(feature_series: pd.Series, adjusted: bool = False) -> Fences:
     Fences
         A NamedTuple containing the inner and outer, lower and upper fence values.
     """
+    if not pd.api.types.is_numeric_dtype(feature_series):
+        raise TypeError("Input Series must have a numeric dtype (e.g., int, float).")
+
     clean_series = feature_series.dropna()
 
     if clean_series.empty:
