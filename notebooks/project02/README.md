@@ -12,7 +12,7 @@ This project is a guided notebook assignment that demonstrates how to:
 
 A link to the notebook can be found here: [ml02_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project02/ml02_jordan.ipynb)
 
-This project utilizes a module for calculating Tukey's fences for analysis.  The module can be found [here.](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/src/stats_jordan.py)
+This project utilizes a module for calculating Tukey's fences.  The module can be found here: [stats_jordan](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/src/stats_jordan.py)
 
 ## Instructions to Set up Virtual Environment
 
