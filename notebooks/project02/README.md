@@ -2,9 +2,7 @@
 ### Author:  [JfromNWMS](https://github.com/JfromNWMS)
 
 ## Overview
-Businesses and organizations often need to understand the relationships between different factors to make better decisions.
-For example, a company may want to predict the fuel efficiency of a car based on its weight and engine size or estimate home prices based on square footage and location.
-Regression analysis helps identify and quantify these relationships between numerical features, providing insights that can be used for forecasting and decision-making.
+This project uses seaborn's Titanic dataset to demonstrate pre-processing of data before splitting for analysis and to compare splitting methods.  The dataset is cleaned and inspected before comparisons between standard pseudo-random splitting and stratified spliting are made.
 
 This project is a guided notebook assignment that demonstrates how to:
 - Load and explore a dataset.
@@ -13,6 +11,8 @@ This project is a guided notebook assignment that demonstrates how to:
 - Document work in a structured Jupyter Notebook.
 
 A link to the notebook can be found here: [ml02_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project02/ml02_jordan.ipynb)
+
+This project utilizes a module for calculating Tukey's fences for analysis.  The module can be found [here.](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/src/stats_jordan.py)
 
 ## Instructions to Set up Virtual Environment
 
