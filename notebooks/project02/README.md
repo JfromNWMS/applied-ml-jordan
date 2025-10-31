@@ -14,6 +14,10 @@ A link to the notebook can be found here: [ml02_jordan.ipynb](https://github.com
 
 This project utilizes a module for calculating Tukey's fences.  The module can be found here: [stats_jordan.py](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/src/stats_jordan.py)
 
+## Dataset  
+- We use the built-in dataset from seaborn:  
+   - [Titanic-Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+
 ## Instructions to Set up Virtual Environment
 
 Run these commands in your VS Code terminal:

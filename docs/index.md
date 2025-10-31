@@ -11,5 +11,5 @@ Projects index:
 
 - [**Project 01: California Housing**](project01/README.md)
 - [**Project 02: Titanic**](project02/README.md)
-- [**Project 03: Title Here**](project03/README.md)
-- [**Project 04: Title Here**](project04/README.md)
+- [**Project 03: Coming Soon**](project03/README.md)
+- [**Project 04: Coming Soon**](project04/README.md)

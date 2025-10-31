@@ -2,74 +2,77 @@
 ### Author:  [JfromNWMS](https://github.com/JfromNWMS)
 
 ## Overview
-Businesses and organizations often need to understand the relationships between different factors to make better decisions.
-For example, a company may want to predict the fuel efficiency of a car based on its weight and engine size or estimate home prices based on square footage and location.
-Regression analysis helps identify and quantify these relationships between numerical features, providing insights that can be used for forecasting and decision-making.
+This project uses seaborn's Titanic dataset to demonstrate pre-processing of data before splitting for analysis and to compare splitting methods.  The dataset is cleaned and inspected before comparisons between standard pseudo-random splitting and stratified spliting are made.
 
 This project is a guided notebook assignment that demonstrates how to:
 - Load and explore a dataset.
 - Choose and justify features for predicting a target variable.
-- Train a regression model and evaluate performance.
+- Check for class distributions of pseudo-random and stratified test-train-split methods.
 - Document work in a structured Jupyter Notebook.
 
 A link to the notebook can be found here: [ml02_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project02/ml02_jordan.ipynb)
 
-## Instructions to Set up Virtual Environment
+This project utilizes a module for calculating Tukey's fences.  The module can be found here: [stats_jordan.py](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/src/stats_jordan.py)
 
-Run these commands in your VS Code terminal:
+## Dataset  
+- We use the built-in dataset from seaborn:  
+   - [Titanic-Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)  
 
-```shell
-# 1. Create an isolated virtual environment
-uv venv
+## Python Library for Machine Learning: scikit-learn
+We use scikit-learn, built on NumPy, SciPy, and matplotlib
+   - Read more at <https://scikit-learn.org/>
+   - Scikit-learn supports classification, regression, and clustering.
+   - This project applies regression.
 
-# 2. Pin a specific Python version (3.12 recommended)
-uv python pin 3.12
 
-# 3. Install all dependencies, including optional dev/docs tools
-uv sync --extra dev --extra docs --upgrade
+## Professional Python Setup and Workflow
+We follow professional Python practices. 
+Full instructions are available at <https://github.com/denisecase/pro-analytics-02/>. 
 
-# 4. Enable pre-commit checks so they run automatically on each commit
-uv run pre-commit install
 
-# 5. Verify the Python version (should show 3.12.x)
-uv run python --version
-```
+**Important:** VS Code + Pylance may fail to recognize installed packages in Jupyter notebooks.  
+See the above guides for troubleshooting and solutions.  
 
-Next, activate the virtual environment.
+---
 
-Windows (PowerShell):
+## Project Outline
+This Machine learning project follows a structured approach.
 
-```script
-.\.venv\Scripts\activate
-```
+### Section 1. Load and Explore the Data
+- 1.1 Load the Dataset
+- 1.2 Preliminary Inspection
+- Reflection 1:
+How many data instances are there?
+How many features are there?
+What are the names?
+Are there any missing values?
+Are there any non-numeric features?
+Are the data instances sorted on any of the attributes?
+What are the units of age?
+What are the minimum, median and max age?
+What two different features have the highest correlation?
+Are there any categorical features that might be useful for prediction?
 
-macOS / Linux / WSL:
+### Section 2. Data Exploration and Preparation
+- 2.1 Create Scatter Matrix, Scatter Plot, Histogram and Count Plot
+- 2.2 Identify patterns or anomalies in feature distributions.
+- 2.3 Feature Engineering
+- Reflection 2.3
+Why might family size be a useful feature for predicting survival?
+Why convert categorical data to numeric?
 
-```script
-source .venv/bin/activate
-```
+### Section 3. Choose Features and Target
+- Reflection 3:
+Why are these features selected?
+Are there any features that are likely to be highly predictive of survival?
 
-## Instructions to Run Jupyter Notebook Locally
+### Section 4. Splitting
+- Reflection 4:
+Why might stratification improve model performance?
+How close are the training and test distributions to the original dataset?
+Which split method produced better class balance?
 
-### Install the Jupyter Extension for VS Code:
+See [EXAMPLE_ANALYSIS](./EXAMPLE_ANALYSIS.md) for more.
 
-Open the Extensions view in VS Code by pressing Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (Mac).
-Search for "Jupyter" and install the official extension.
-Open the notebook in VS Code. The file will have a .ipynb extension.
-
-### Task 1. Select Notebook Kernel
-Open the notebook (.ipynb) file in VS Code.
-If prompted, select a Python interpreter that corresponds to your project’s .venv.
-If not prompted:
-Click the Kernel Selector in the top-right corner.
-Choose the interpreter labeled with your project name and path.
-Or open the Command Palette (Ctrl Shift P / Cmd Shift P) and run: Python: Select Interpreter, then pick your .venv.
-
-### Task 2. Start and Run the Notebook
-To run notebooks directly in VS Code, click on a cell and press:
-<br>Shift Enter to run cell and move to next
-<br>Ctrl Enter to run cell and stay in place
-<br>Save often or enable File / Auto Save.
-
-## Example Analysis for Project 2
+---
 
