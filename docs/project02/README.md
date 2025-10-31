@@ -63,14 +63,14 @@ This Machine learning project follows a structured approach.
 
 ### Section 3. Choose Features and Target
 - Reflection 3:
-  - Why are these features selected?
-  - Are there any features that are likely to be highly predictive of survival?
+    - Why are these features selected?
+    - Are there any features that are likely to be highly predictive of survival?
 
 ### Section 4. Splitting
 - Reflection 4:
-  - Why might stratification improve model performance?
-  - How close are the training and test distributions to the original dataset?
-  - Which split method produced better class balance?
+    - Why might stratification improve model performance?
+    - How close are the training and test distributions to the original dataset?
+    - Which split method produced better class balance?
 
 See [EXAMPLE_ANALYSIS](./EXAMPLE_ANALYSIS.md) for more.
 
