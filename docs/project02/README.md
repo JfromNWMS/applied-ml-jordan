@@ -42,8 +42,8 @@ This Machine learning project follows a structured approach.
 - 1.1 Load the Dataset
 - 1.2 Preliminary Inspection
 - Reflection 1:
-How many data instances are there?
-How many features are there?
+1) How many data instances are there?
+2) How many features are there?
 What are the names?
 Are there any missing values?
 Are there any non-numeric features?
