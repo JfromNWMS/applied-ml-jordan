@@ -63,8 +63,8 @@ This Machine learning project follows a structured approach.
 
 ### Section 3. Choose Features and Target
 - Reflection 3:
-- Why are these features selected?
-- Are there any features that are likely to be highly predictive of survival?
+  - Why are these features selected?
+  - Are there any features that are likely to be highly predictive of survival?
 
 ### Section 4. Splitting
 - Reflection 4:
