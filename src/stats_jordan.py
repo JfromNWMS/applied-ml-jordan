@@ -4,6 +4,7 @@ from typing import NamedTuple
 
 import numpy as np
 import pandas as pd
+from sklearn.metrics import classification_report
 from statsmodels.stats.stattools import medcouple
 
 
@@ -72,3 +73,20 @@ def tukey_fences(feature_series: pd.Series, adjusted: bool = False) -> Fences:
         inner_upper=round(inner_upper_fence, round_num),
         outer_upper=round(outer_upper_fence, round_num)
     )
+
+
+def plot_classification_table(ax, y_t, y_p):
+    """Plot classification_report."""
+    report_dict = classification_report(y_t, y_p, output_dict=True)
+    report_df = pd.DataFrame(report_dict).T
+    report_df.iloc[:,0:3] = report_df.iloc[:,0:3]*100
+    report_df = report_df.round(2)
+    report_df.iloc[2,3] = report_df.iloc[3,3]
+    report_df.iloc[2,0:2] = np.nan
+    report_df = report_df.fillna("")
+    table = ax.table(cellText=report_df.values, colLabels=report_df.columns,
+                     rowLabels=report_df.index, loc="center", cellLoc="center")
+    ax.axis("off")
+    table.scale(1,1.4)
+    for cell in table.get_celld().values():
+        cell.set_linewidth(0.5)
