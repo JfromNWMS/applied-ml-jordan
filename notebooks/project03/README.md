@@ -73,7 +73,7 @@ To run notebooks directly in VS Code, click on a cell and press:
 <br>Ctrl Enter to run cell and stay in place
 <br>Save often or enable File / Auto Save.
 
-## Example Analysis for Project 3
+## Classification Results For Project 3
 
 
 ![alt text](tree_classification_all_cases.png)
