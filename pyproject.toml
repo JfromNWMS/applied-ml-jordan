@@ -32,6 +32,8 @@ dependencies = [ # fmt: off
   "scikit-learn", # Essential machine learning library (models, preprocessing, metrics)
   "ipywidgets",  # Widgets for Jupyter notebooks
   "statsmodels", # Statistical tools for analytics
+  "imblearn",    # ML library
+  "tabulate",    # For tabulating
 ]  # fmt: on
 
 [project.urls]

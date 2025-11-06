@@ -75,7 +75,7 @@ def tukey_fences(feature_series: pd.Series, adjusted: bool = False) -> Fences:
     )
 
 
-def plot_classification_table(ax, y_t, y_p):
+def classification_table(y_t, y_p, ax=None, to_frame: bool=False):  # noqa: RET503
     """Plot sklear.metric.classification_report."""
     report_dict = classification_report(y_t, y_p, output_dict=True)
     report_df = pd.DataFrame(report_dict).T
@@ -86,10 +86,16 @@ def plot_classification_table(ax, y_t, y_p):
     report_df.iloc[2,3] = report_df.iloc[3,3]
     report_df.iloc[2,0:2] = np.nan
     report_df = report_df.fillna("")
-    table = ax.table(cellText=report_df.values, colLabels=report_df.columns,
-                     rowLabels=report_df.index, loc="center", cellLoc="center")
-    ax.axis("off")
-    table.scale(1,1.4)
-    for cell in table.get_celld().values():
-        cell.set_linewidth(0.5)
-        cell.set_edgecolor("royalblue")
+
+    if to_frame:
+        return report_df
+
+    if ax is not None:
+        table = ax.table(cellText=report_df.values, colLabels=report_df.columns,
+                         rowLabels=report_df.index, loc="center", cellLoc="center")
+        ax.axis("off")
+        table.scale(1,1.4)
+        for cell in table.get_celld().values():
+            cell.set_linewidth(0.5)
+            cell.set_edgecolor("royalblue")
+    return pd.DataFrame()
