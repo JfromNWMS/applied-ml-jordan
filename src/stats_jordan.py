@@ -75,9 +75,9 @@ def tukey_fences(feature_series: pd.Series, adjusted: bool = False) -> Fences:
     )
 
 
-def classification_table(y_t, y_p, ax=None, to_frame=False):
+def classification_table(y_t, y_p, ax=None, to_frame=False, target_names=None):
     """Plot sklear.metric.classification_report."""
-    report_dict = classification_report(y_t, y_p, output_dict=True)
+    report_dict = classification_report(y_t, y_p, output_dict=True, target_names=target_names)
     report_df = pd.DataFrame(report_dict).T
     report_df.columns = report_df.columns.astype(str).str.title()
     report_df.index = report_df.index.astype(str).str.title()
