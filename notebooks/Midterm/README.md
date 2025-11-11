@@ -16,6 +16,10 @@ A link to the notebook can be found here: [ml_midterm_jordan.ipynb](https://gith
 - We use the mushroom dataset from UCI:  
    - [Mushroom](https://archive.ics.uci.edu/dataset/73/mushroom)
 
+## Peer Review
+
+Linsay Foster - [Mushroom Classification Project](https://github.com/LFoster03/ml-midterm-foster/blob/main/classification_foster.ipynb)
+
 ## Classification Results For Midterm
 
 ![alt text](tree_classification.png)
