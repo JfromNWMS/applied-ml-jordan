@@ -1,20 +1,20 @@
-# Jordan Project 03
+# Jordan Midterm
 ### Author:  [JfromNWMS](https://github.com/JfromNWMS)
 
 ## Overview
-This project uses the Titanic dataset to build and evaluate three classifiers: Decision Tree, Support Vector Machine, and Neural Network. We compare model performance across three different feature sets and reflect on their effectiveness for predicting passenger survival.
+This project uses the Mushroom dataset to evalutate and compare Decision Tree and Random Forest models.  The Mushroom dataset contains 8,124 samples of mushrooms with 23 different features.  The samples correspond to 23 species of gilled mushrooms in the Agaricus and Lepiota Familys.
 
 This project is a guided notebook assignment that demonstrates how to:
 - Load and explore a dataset.
 - Choose and justify features for predicting a target variable.
-- Predict a categorical target and evaluate performance of Decision Tree, Support Vector Machine and Neural Network classifiers.
+- Predict a categorical target and evaluate performance of Decision Tree and Random Forest classifiers.
 - Document work in a structured Jupyter Notebook.
 
-A link to the notebook can be found here: [ml03_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project03/ml03_jordan.ipynb)
+A link to the notebook can be found here: [ml_midterm_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/midterm/ml_midterm_jordan.ipynb)
 
 ## Dataset  
-- We use the built-in dataset from seaborn:  
-   - [Titanic-Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+- We use the mushroom dataset from UCI:  
+   - [Mushroom](https://archive.ics.uci.edu/dataset/73/mushroom)
 
 ## Instructions to Set up Virtual Environment
 
@@ -73,11 +73,8 @@ To run notebooks directly in VS Code, click on a cell and press:
 <br>Ctrl Enter to run cell and stay in place
 <br>Save often or enable File / Auto Save.
 
-## Classification Results For Project 3
+## Classification Results For Midterm
 
-
-![alt text](tree_classification_all_cases.png)
-![alt text](tree_plot_all_cases.png)
-![alt text](svc_classification_all_cases.png)
-![alt text](nn_classification_age_familysize.png)
-
+![alt text](tree_classification.png)
+![alt text](tree_plot.png)
+![alt text](rf_classification.png)
