@@ -76,5 +76,4 @@ To run notebooks directly in VS Code, click on a cell and press:
 ## Classification Results For Midterm
 
 ![alt text](tree_classification.png)
-![alt text](tree_plot.png)
 ![alt text](rf_classification.png)
