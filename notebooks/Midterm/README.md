@@ -10,7 +10,7 @@ This project is a guided notebook assignment that demonstrates how to:
 - Predict a categorical target and evaluate performance of Decision Tree and Random Forest classifiers.
 - Document work in a structured Jupyter Notebook.
 
-A link to the notebook can be found here: [ml_midterm_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/midterm/ml_midterm_jordan.ipynb)
+A link to the notebook can be found here: [ml_midterm_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/Midterm/ml_midterm_jordan.ipynb)
 
 ## Dataset  
 - We use the mushroom dataset from UCI:  
