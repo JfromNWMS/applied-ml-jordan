@@ -16,6 +16,12 @@ A link to the notebook can be found here: [ml_midterm_jordan.ipynb](https://gith
 - We use the mushroom dataset from UCI:  
    - [Mushroom](https://archive.ics.uci.edu/dataset/73/mushroom)
 
+## Classification Results For Midterm
+
+![alt text](tree_classification.png)
+![alt text](rf_classification.png)
+
+
 ## Instructions to Set up Virtual Environment
 
 Run these commands in your VS Code terminal:
@@ -72,8 +78,3 @@ To run notebooks directly in VS Code, click on a cell and press:
 <br>Shift Enter to run cell and move to next
 <br>Ctrl Enter to run cell and stay in place
 <br>Save often or enable File / Auto Save.
-
-## Classification Results For Midterm
-
-![alt text](tree_classification.png)
-![alt text](rf_classification.png)
