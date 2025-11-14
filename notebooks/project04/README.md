@@ -2,19 +2,34 @@
 ### Author:  [JfromNWMS](https://github.com/JfromNWMS)
 
 ## Overview
-This project uses the Titanic dataset to build and evaluate three classifiers: Decision Tree, Support Vector Machine, and Neural Network. We compare model performance across three different feature sets and reflect on their effectiveness for predicting passenger survival.
+This project uses the Titanic dataset to build and evaluate four regression models: Ordinary Least Squares, Ridge, Elastic Net, and Polynomial. We compare model performance and reflect on their effectiveness for predicting passenger fare.
 
 This project is a guided notebook assignment that demonstrates how to:
 - Load and explore a dataset.
 - Choose and justify features for predicting a target variable.
-- Predict a categorical target and evaluate performance of Decision Tree, Support Vector Machine and Neural Network classifiers.
+- Predict a continuous target and evaluate performance of Ordinary Least Squares, Ridge, Elastic Net, and Polynomial Regression Models.
 - Document work in a structured Jupyter Notebook.
 
-A link to the notebook can be found here: [ml03_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project03/ml03_jordan.ipynb)
+A link to the notebook can be found here: [ml04_jordan.ipynb](https://github.com/JfromNWMS/applied-ml-jordan/blob/main/notebooks/project04/ml04_jordan.ipynb)
 
 ## Dataset  
 - We use the built-in dataset from seaborn:  
    - [Titanic-Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+
+## Regression Results Summary Table For Project 4
+
+| Model Type  | Case | Features Used | R² | RMSE | MAE |
+|-------------|------|---------------|----------|-----------|--------|
+| Linear      | Case 1 | age | 0.003 | 37.97 | 25.29 |
+|             | Case 2 | family_size | 0.022 | 37.61 | 25.03 |
+|             | Case 3 | age + family_size | 0.050 | 37.08 | 24.28 |
+|             | Case 4 | sex | 0.099 | 36.10 | 24.24 |
+|-------------|--------|-------------------|----------|-----------|--------|
+| Ridge       | Case 4 | sex | 0.099 | 36.10 | 24.24 |
+|-------------|--------|-------------------|----------|-----------|--------|
+| Elastic Net | Case 4 | sex | 0.054 | 36.99 | 24.21 |
+|-------------|--------|-------------------|----------|-----------|--------|
+| Polynomial  | Case 1 | age | -0.003 | 38.10 | 25.30 |
 
 ## Instructions to Set up Virtual Environment
 
@@ -72,12 +87,3 @@ To run notebooks directly in VS Code, click on a cell and press:
 <br>Shift Enter to run cell and move to next
 <br>Ctrl Enter to run cell and stay in place
 <br>Save often or enable File / Auto Save.
-
-## Classification Results For Project 3
-
-
-![alt text](tree_classification_all_cases.png)
-![alt text](tree_plot_all_cases.png)
-![alt text](svc_classification_all_cases.png)
-![alt text](nn_classification_age_familysize.png)
-
