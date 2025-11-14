@@ -5,7 +5,7 @@
 This project uses the Titanic dataset to build and evaluate four regression models: Ordinary Least Squares, Ridge, Elastic Net, and Polynomial. We compare model performance and reflect on their effectiveness for predicting passenger fare.
 
 This project is a guided notebook assignment that demonstrates how to:
-- Load and explore a dataset.
+- Load, explore and prepare a dataset.
 - Choose and justify features for predicting a target variable.
 - Predict a continuous target and evaluate performance of Ordinary Least Squares, Ridge, Elastic Net, and Polynomial Regression Models.
 - Document work in a structured Jupyter Notebook.
