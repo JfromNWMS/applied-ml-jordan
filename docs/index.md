@@ -10,6 +10,4 @@ Each project follows a professional structure with reproducible environments, do
 Projects index:
 
 - [**Project 01: California Housing**](project01/README.md)
-- [**Project 02: Titanic**](project02/README.md)
-- [**Project 03: Coming Soon**](project03/README.md)
-- [**Project 04: Coming Soon**](project04/README.md)
+- [**Project 05: Red Wine Quality**](project05/README.md)
